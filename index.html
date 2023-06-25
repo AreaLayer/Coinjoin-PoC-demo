@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coinjoin Demo</title>
+  <style>
+    /* Add some basic styles for the demo */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .form-group {
+      margin-bottom: 10px;
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="number"] {
+      width: 100%;
+      padding: 5px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Coinjoin Demo</h1>
+    
+    <div class="form-group">
+      <label for="amount1">Amount 1:</label>
+      <input type="number" id="amount1" name="amount1" step="0.01" placeholder="Enter amount">
+    </div>
+    
+    <div class="form-group">
+      <label for="amount2">Amount 2:</label>
+      <input type="number" id="amount2" name="amount2" step="0.01" placeholder="Enter amount">
+    </div>
+    
+    <div class="form-group">
+      <label for="address1">Address 1:</label>
+      <input type="text" id="address1" name="address1" placeholder="Enter address">
+    </div>
+    
+    <div class="form-group">
+      <label for="address2">Address 2:</label>
+      <input type="text" id="address2" name="address2" placeholder="Enter address">
+    </div>
+    
+    <button onclick="coinjoin()">Perform Coinjoin</button>
+    
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function coinjoin() {
+      // Retrieve values from the input fields
+      var amount1 = document.getElementById("amount1").value;
+      var amount2 = document.getElementById("amount2").value;
+      var address1 = document.getElementById("address1").value;
+      var address2 = document.getElementById("address2").value;
+      
+      // Perform the Coinjoin logic here
+      
+      // Display the result
+      var resultElement = document.getElementById("result");
+      resultElement.innerHTML = "Coinjoin performed successfully!";
+    }
+  </script>
+</body>
+</html>
