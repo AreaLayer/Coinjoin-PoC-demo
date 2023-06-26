@@ -20,7 +20,9 @@ This is will be used as base and inspiration for create Coinjoin on [Firebolt](h
 
 ## Scenario with Payjoin
 
-Soon
+- Alice (sender) define input without need change the Nostr PubKey
+- Bob (receiver) accept input of Alice, the transaction is done
+
 
 ## Demo video
 
