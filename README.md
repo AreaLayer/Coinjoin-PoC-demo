@@ -24,6 +24,6 @@ This is will be used as base and inspiration for create Coinjoin on [Firebolt](h
 - Bob (receiver) accept input of Alice, the transaction is done
 
 
-## Demo video
+## Demo video with PoC of Coinjoin from Firebolt
 
 ![Coinjoin demo](https://github.com/AreaLayer/Coinjoin-PoC-demo/blob/main/demo-video/Coinjoin-demo2.gif)
