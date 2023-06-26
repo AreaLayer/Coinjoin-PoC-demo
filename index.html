@@ -61,12 +61,22 @@
     </div>
     
     <div class="form-group">
-      <label for="address1">Address 1:</label>
+      <label for="PubKey">PubKey:</label>
+      <input type="text" id="pubkey" name="address1" placeholder="Enter PubKey(Nostr)>
+    </div>
+        
+    <div class="form-group">
+      <label for="PubKey">PubKey:</label>
+      <input type="text" id="pubkey" name="address1" placeholder="Enter PubKey(Nostr)>
+    </div>
+    
+    <div class="form-group">
+      <label for="address1">Alice:</label>
       <input type="text" id="address1" name="address1" placeholder="Enter address">
     </div>
     
     <div class="form-group">
-      <label for="address2">Address 2:</label>
+      <label for="address2">Bob:</label>
       <input type="text" id="address2" name="address2" placeholder="Enter address">
     </div>
     
@@ -82,6 +92,9 @@
       var amount2 = document.getElementById("amount2").value;
       var address1 = document.getElementById("address1").value;
       var address2 = document.getElementById("address2").value;
+      var pubkey = document.getElementById("PubKey").value
+      var pubkey = document.getElementById("PubKey").value
+
       
       // Perform the Coinjoin logic here
       
