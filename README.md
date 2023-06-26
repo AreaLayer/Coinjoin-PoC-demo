@@ -11,6 +11,7 @@ This is will be used as base and inspiration for create Coinjoin on [Firebolt](h
 - Alice and Bob choose amount for put into Pool:
 
 Alice: 0.1 BTC
+
 Bob: 0.01 BTC
 
 - After both put your Nostr Pubkeys will be present on Firebolt
